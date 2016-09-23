@@ -1,0 +1,143 @@
+body {
+	font-family: "Marker Felt", thin;
+	color: #ecf0f1;
+	background-color: #34495e;
+
+}
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Aligner-item {
+  max-width: 100%;
+}
+
+.blocks {
+	height: calc(90vh/4);
+	width: calc(90vw/2);
+	display: inline-block;
+	border-radius: 1.5em;
+}
+
+.highlight {
+	box-sizing: border-box;
+	border-width: .5em;
+	border-color:  #ecf0f1;
+	border-style: solid;
+	opacity: 1 !important;
+}
+
+.top {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.bottom {
+	position: relative;
+}
+
+.top2 {
+	position: relative;
+	top: 200;
+	left: 0;
+}
+
+.bottom2 {
+	position: relative;
+}
+
+#green { background: #2ecc71; opacity: .3;}
+#blue { background: #3498db; opacity: .3;}
+#red { background: #c0392b; opacity: .3;}
+#yellow { background: #f1c40f; opacity: .3;}
+#green2 { background: #2ecc71; opacity: .3;}
+#blue2 { background: #3498db; opacity: .3;}
+#red2 { background: #c0392b; opacity: .3;}
+#yellow2 { background: #f1c40f; opacity: .3;}
+
+.title {
+	font-size: 2.5em;
+	display: inline-block;
+	position: relative;
+	right: 1em;
+}
+
+.rounds {
+	color: #ecf0f1;
+	font-size: 2.5em;
+	padding: 10px;
+	left: 12.9em;
+	display: inline-block;
+	position: absolute;
+
+}
+
+#restart {
+	display: none; 
+	border-radius: 2.5em;
+	position: absolute;
+	height: 12em;
+	width: 24em;
+	top: 120em;
+}
+
+.fade {
+	font-size: 7.9em;
+	display: none;
+	position: absolute;
+	top: 6.1em;
+}
+
+
+.fadeOver {
+	font-size: 7.9em;
+	display: none;
+	position: absolute;
+	top: 6em;
+}
+
+.scoreboard {
+	height: calc(180vh/4);
+	width: calc(180vw/2);
+	top: 9em;
+	padding: .5em;
+	font-size: 3em;
+	border-radius: 2em;
+	display: none;
+	position: absolute;
+	background-color: #bdc3c7;
+	opacity: .95;
+	font-color: #ecf0f1;
+}
+
+.introGame {
+	height: calc(180vh/4);
+	width: calc(180vw/2);
+	position: absolute;
+	padding: .5em;
+	background-color: #bdc3c7;
+	top: 9em;
+	border-radius: 2em;
+	display: none;
+	font-size: 3em;
+	opacity: 1;
+}
+
+#startGame {
+	display: none; 
+	border-radius: 2.5em;
+	position: absolute;
+	height: 12em;
+	width: 24em;
+	top: 120em;
+}
+
+
+
+
+
